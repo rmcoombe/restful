@@ -35,9 +35,9 @@
     <script id='myTemplate' type='text/ractive'>
 	
 			{{#weather}}
-			<li>{{weather_state_name}}</li>
-			{{/weather}}
-
+			<li>{{weather_state_abbr}}
+			<img src="https://www.metaweather.com/static/img/weather/{{weather_state_abbr}}.svg" width="50" height="50">
+			</li>
     </script>
 
 </body>
